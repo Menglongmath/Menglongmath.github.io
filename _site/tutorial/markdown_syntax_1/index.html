@@ -170,6 +170,9 @@
 
 
 
+
+
+
 <div id="main" role="main">
   
   <div class="sidebar sticky">
@@ -287,83 +290,40 @@
 
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Some markdown and html syntax">
     <meta itemprop="description" content="Some syntax of markdown and html">
-    <meta itemprop="datePublished" content="2019-03-10T00:00:00-06:00">
+    <meta itemprop="datePublished" content="March 10, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Some markdown and html syntax
+          <h1 class="page__title" itemprop="headline">Some markdown and html syntax
 </h1>
           
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
 
 
-  <p class="page__meta">
+  
+	  6 minute read
+	
 
-    
+</p>
+          
+        
 
-    
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-10T00:00:00-06:00">March 10, 2019</time></p>
+        
 
-    
-      
-      
 
-      <i class="far fa-clock" aria-hidden="true"></i>
-      
-        6 minute read
-      
-    
-
-  </p>
+        
 
         </header>
       
 
       <section class="page__content" itemprop="text">
-        
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#text-emphasize">Text emphasize</a></li>
-  <li><a href="#in-text-link">In-text link</a></li>
-  <li><a href="#code-snippets">Code Snippets</a></li>
-  <li><a href="#alignment-of-text">alignment of Text</a></li>
-  <li><a href="#lists">Lists</a></li>
-  <li><a href="#forms">Forms</a></li>
-  <li><a href="#notice">Notice</a>
-     -  <a href="#new-site-features">New Site Features</a></li>
-  <li><a href="#blockquotes">Blockquotes</a></li>
-  <li><a href="#tables">Tables</a></li>
-  <li><a href="#definition-lists">Definition Lists</a></li>
-  <li><a href="#buttons">Buttons</a></li>
-  <li><a href="#html-tags">HTML Tags</a>
-    <ul>
-      <li><a href="#address-tag">Address Tag</a></li>
-      <li><a href="#anchor-tag-aka-link">Anchor Tag (aka. Link)</a></li>
-      <li><a href="#abbreviation-tag">Abbreviation Tag</a></li>
-      <li><a href="#cite-tag">Cite Tag</a></li>
-      <li><a href="#code-tag">Code Tag</a></li>
-      <li><a href="#strike-tag">Strike Tag</a></li>
-      <li><a href="#emphasize-tag">Emphasize Tag</a></li>
-      <li><a href="#insert-tag">Insert Tag</a></li>
-      <li><a href="#keyboard-tag">Keyboard Tag</a></li>
-      <li><a href="#preformatted-tag">Preformatted Tag</a></li>
-      <li><a href="#quote-tag">Quote Tag</a></li>
-      <li><a href="#strong-tag">Strong Tag</a></li>
-      <li><a href="#subscript-tag">Subscript Tag</a></li>
-      <li><a href="#superscript-tag">Superscript Tag</a></li>
-      <li><a href="#variable-tag">Variable Tag</a></li>
-    </ul>
-  </li>
-</ul>
-
-            </nav>
-          </aside>
-        
         <h2 id="text-emphasize">Text emphasize</h2>
 
 <p><em>this is emphasized</em>
@@ -754,10 +714,6 @@
   </p>
 
 
-        
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-10T00:00:00-06:00">March 10, 2019</time></p>
-
-
       </footer>
 
       <section class="page__share">
@@ -788,12 +744,23 @@
     </div>
 
     
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section class="fb-comments" data-href="http://localhost:4000/tutorial/markdown_syntax_1/" data-mobile="true" data-num-posts="5" data-width="100%" data-colorscheme="light"></section>
+    
+</div>
+
+    
   </article>
 
   
   
     <div class="page__related">
-      <h4 class="page__related-title">You may also enjoy</h4>
+      
+        <h4 class="page__related-title">You may also enjoy</h4>
+      
       <div class="grid__wrapper">
         
           
@@ -822,13 +789,21 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
+      <!-- This is added to show update time -->
       
-        1 minute read
-      
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-10T00:00:00-06:00">March 10, 2019</time></p>
+        
+
+
+        <!-- Uncomment it for read time -->
+        <!-- <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+           -->
     
 
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Embedding pictures and videos
 </p>
@@ -862,13 +837,21 @@
       
       
 
-      <i class="far fa-clock" aria-hidden="true"></i>
+      <!-- This is added to show update time -->
       
-        3 minute read
-      
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-10T00:00:00-06:00">March 10, 2019</time></p>
+        
+
+
+        <!-- Uncomment it for read time -->
+        <!-- <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+           -->
     
 
   </p>
+
 
     <p class="archive__item-excerpt" itemprop="description">Some Front matter setup
 </p>
@@ -878,7 +861,6 @@
         
       </div>
     </div>
-  
   
 </div>
 

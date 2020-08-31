@@ -1,0 +1,756 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>YAML front matter setup  - Menglong’s Homepage</title>
+<meta name="description" content="Some Front matter setup">
+
+
+  <meta name="author" content="Menglong Li">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Menglong's Homepage">
+<meta property="og:title" content="YAML front matter setup">
+<meta property="og:url" content="http://localhost:4000/tutorial/YAML_front_matter_setup/">
+
+
+  <meta property="og:description" content="Some Front matter setup">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-03-10T00:00:00-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/YAML_front_matter_setup/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Menglong Li",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Menglong's Homepage Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/images/uiuc_I.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Menglong's Homepage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/gallery/">Gallery</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/images/my_portrait.jpg" alt="Menglong Li" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Menglong Li</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>ISE department, UIUC</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Urbana, IL</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:ml10@illinois.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=mSNZgMYAAAAJ&hl=en" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/Menglongmath" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="YAML front matter setup">
+    <meta itemprop="description" content="Some Front matter setup">
+    <meta itemprop="datePublished" content="2019-03-10T00:00:00-06:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">YAML front matter setup
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+
+    
+
+    
+      
+      
+
+      <i class="far fa-clock" aria-hidden="true"></i>
+      
+        3 minute read
+      
+    
+
+  </p>
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#set-external-video-as-header">Set external video as header</a></li>
+  <li><a href="#post-with-header-image">Post with header image</a></li>
+  <li><a href="#overlay-filter">Overlay filter</a></li>
+  <li><a href="#enable-table-of-contents">Enable table of contents</a></li>
+  <li><a href="#side-bar">side bar</a></li>
+  <li><a href="#navigation-sidebar">navigation Sidebar</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="set-external-video-as-header">Set external video as header</h2>
+
+<p>To embed the following YouTube video at url https://www.youtube.com/watch?v=XsxDH4HcOWA (long version) or https://youtu.be/XsxDH4HcOWA (short version) as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">XsxDH4HcOWA</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">youtube</span>
+</code></pre></div></div>
+
+<p>To embed following Vimeo video at url <code class="language-plaintext highlighter-rouge">https://vimeo.com/212731897</code> as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="m">212731897</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">vimeo</span>
+</code></pre></div></div>
+
+<h2 id="post-with-header-image">Post with header image</h2>
+
+<p>Post has a header image with an OpenGraph override.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">image</span><span class="pi">:</span> <span class="s">/assets/images/page-header-image.png</span>
+  <span class="na">og_image</span><span class="pi">:</span> <span class="s">/assets/images/page-header-og-image.png</span>
+</code></pre></div></div>
+
+<p>Post has a header image with an OpenGraph override.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">overlay_image</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-image-1.jpg</span>
+  <span class="na">og_image</span><span class="pi">:</span> <span class="s">/assets/images/page-header-og-image.png</span>
+  <span class="na">caption</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Photo</span><span class="nv"> </span><span class="s">credit:</span><span class="nv"> </span><span class="s">[**Unsplash**](https://unsplash.com)"</span>
+  <span class="na">actions</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Learn</span><span class="nv"> </span><span class="s">more"</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://unsplash.com"</span>
+</code></pre></div></div>
+
+<p>The preferred way of using images is placing them in the <code class="language-plaintext highlighter-rouge">/assets/images/</code> directory and referencing them with an absolute path. Prepending the filename with <code class="language-plaintext highlighter-rouge">{{ site.url }}{{ site.baseurl }}/assets/images/</code> will make sure your images display properly in feeds and such.</p>
+
+<p>Standard image with no width modifier classes applied.</p>
+
+<p><strong>HTML:</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h2 id="overlay-filter">Overlay filter</h2>
+<p>You can use it by specifying the opacity (between 0 and 1) of a black overlay like so:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">post</span><span class="nv"> </span><span class="s">should</span><span class="nv"> </span><span class="s">[...]"</span>
+<span class="na">header</span><span class="pi">:</span>
+  <span class="na">overlay_image</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-image-1.jpg</span>
+  <span class="na">overlay_filter</span><span class="pi">:</span> <span class="m">0.5</span> <span class="c1"># same as adding an opacity of 0.5 to a black background</span>
+  <span class="na">caption</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Photo</span><span class="nv"> </span><span class="s">credit:</span><span class="nv"> </span><span class="s">[**Unsplash**](https://unsplash.com)"</span>
+  <span class="na">actions</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">More</span><span class="nv"> </span><span class="s">Info"</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://unsplash.com"</span>
+</code></pre></div></div>
+
+<p>Or if you want to do more fancy things, go full rgba:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">post</span><span class="nv"> </span><span class="s">should</span><span class="nv"> </span><span class="s">[...]"</span>
+<span class="na">header</span><span class="pi">:</span>
+  <span class="na">overlay_image</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-image-1.jpg</span>
+  <span class="na">overlay_filter</span><span class="pi">:</span> <span class="s">rgba(255, 0, 0, 0.5)</span>
+  <span class="na">caption</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Photo</span><span class="nv"> </span><span class="s">credit:</span><span class="nv"> </span><span class="s">[**Unsplash**](https://unsplash.com)"</span>
+  <span class="na">actions</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">More</span><span class="nv"> </span><span class="s">Info"</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://unsplash.com"</span>
+</code></pre></div></div>
+
+<h2 id="enable-table-of-contents">Enable table of contents</h2>
+
+<p>Enable table of contents on post or page by adding <code class="language-plaintext highlighter-rouge">toc: true</code> to its YAML Front Matter. The title and icon can also be changed with:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">toc_label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Unique</span><span class="nv"> </span><span class="s">Title"</span>
+<span class="na">toc_icon</span><span class="pi">:</span> <span class="s2">"</span><span class="s">heart"</span>  <span class="c1"># corresponding Font Awesome icon name (without fa prefix)</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>“Stick” table of contents to the top of a page by adding <code class="language-plaintext highlighter-rouge">toc_sticky: true</code> to its YAML Front Matter.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">toc_sticky</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h2 id="side-bar">side bar</h2>
+<p>Add this to the front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">sidebar</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Title"</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">http://placehold.it/350x250</span>
+    <span class="na">image_alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">image"</span>
+    <span class="na">text</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Some</span><span class="nv"> </span><span class="s">text</span><span class="nv"> </span><span class="s">here."</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Another</span><span class="nv"> </span><span class="s">Title"</span>
+    <span class="na">text</span><span class="pi">:</span> <span class="s2">"</span><span class="s">More</span><span class="nv"> </span><span class="s">text</span><span class="nv"> </span><span class="s">here."</span>
+    <span class="na">nav</span><span class="pi">:</span> <span class="s">sidebar-sample</span>
+</code></pre></div></div>
+
+<h2 id="navigation-sidebar">navigation Sidebar</h2>
+
+<p>This post has a custom navigation list set in the post’s YAML Front Matter.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">sidebar</span><span class="pi">:</span>
+  <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Sample</span><span class="nv"> </span><span class="s">Title"</span>
+  <span class="na">nav</span><span class="pi">:</span> <span class="s">sidebar-sample</span>
+</code></pre></div></div>
+
+<p>Along with navigation elements set in <code class="language-plaintext highlighter-rouge">_data/navigation.yml</code>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">sidebar-sample</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Parent</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">A"</span>
+    <span class="na">children</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">A1"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">A2"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">A3"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">A4"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Parent</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B"</span>
+    <span class="na">children</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B1"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B2"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B3"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B4"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">B5"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Parent</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C"</span>
+    <span class="na">children</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C1"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C2"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C3"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C4"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">C5"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Parent</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">D"</span>
+    <span class="na">children</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">D1"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+      <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Child</span><span class="nv"> </span><span class="s">Page</span><span class="nv"> </span><span class="s">D2"</span>
+        <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#front-matter" class="page__taxonomy-item" rel="tag">Front matter</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#yaml" class="page__taxonomy-item" rel="tag">YAML</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#tutorial" class="page__taxonomy-item" rel="tag">Tutorial</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-10T00:00:00-06:00">March 10, 2019</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=YAML+front+matter+setup+%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FYAML_front_matter_setup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FYAML_front_matter_setup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FYAML_front_matter_setup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/tutorial/markdown_syntax_1/" class="pagination--pager" title="Some markdown and html syntax
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/markdown_syntax_2/" rel="permalink">Embedding pictures and videos
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+
+    
+      
+      
+
+      <i class="far fa-clock" aria-hidden="true"></i>
+      
+        1 minute read
+      
+    
+
+  </p>
+
+    <p class="archive__item-excerpt" itemprop="description">Embedding pictures and videos
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/markdown_syntax_1/" rel="permalink">Some markdown and html syntax
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+
+    
+      
+      
+
+      <i class="far fa-clock" aria-hidden="true"></i>
+      
+        7 minute read
+      
+    
+
+  </p>
+
+    <p class="archive__item-excerpt" itemprop="description">Some syntax of markdown and html
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+          <li><a href="https://www.facebook.com/limenglongmath" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Menglongmath" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Menglong Li. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+
+
+
+
+
+  </body>
+</html>

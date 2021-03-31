@@ -84,12 +84,12 @@ axs[1, 1].set_title('Axis [1, 1]')
 figure=plt.figure(figsize=figsize)
 spec=gridspec.GridSpec(ncols=2, nrows=2, figure=figure)
 for i in range(2):
-  for j in range(2):
-    ax=figure.add_subplot(spec[i,j])
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
-    ax.plot(x,y,label='label')
-    ax.legend()
+    for j in range(2):
+        ax=figure.add_subplot(spec[i,j])
+        ax.set_xlabel('x')
+        ax.set_ylabel('y')
+        ax.plot(x,y,label='label')
+        ax.legend()
 ```
 or
 ```python

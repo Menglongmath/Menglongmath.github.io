@@ -114,13 +114,13 @@ analytics:
 # Site Author
 author:
   name             : "Menglong Li"
-  avatar           : "images/my_portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "ISE department, UIUC"
-  location         : Urbana, IL
+  avatar           : "images/portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "IDSS, MIT"
+  location         : Boston, MA
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ml10@illinois.edu
+      url: mailto:ml21@mit.edu
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=mSNZgMYAAAAJ&hl=en"

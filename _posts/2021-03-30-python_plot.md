@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Plot with Python"
+title: "Plot with python"
 category:
   - Tutorial
 tags:
-  - Python
+  - python
 #last_modified_at: 2016-03-09T16:20:02-05:00
-excerpt: "Plot tips with Python"
+excerpt: "Plot tips with python"
 toc: true
 toc_sticky: true
 ---
@@ -19,7 +19,7 @@ toc_sticky: true
 fig = plt.figure()  # an empty figure with no Axes.
 ```
 or
-```Python
+```python
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
 ```
 * Plot using `plt.plot()`, which automatically generates a figure and an axe with data on it.
@@ -33,33 +33,33 @@ ax.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Plot some data on the axes.
 ```
 
 * Set legends
-```Python
+```python
 plt.plot([1,2,3], label='cubic')
 plt.legend()
 ```
 or
 
-```Python
+```python
 ax.plot([1, 2, 3], label='Inline label')
 ax.legend()
 ```
 
 
 * Set title, x label, y label
-```Python
+```python
 plt.xlabel('x label')
 plt.ylabel('y label')
 plt.title("Simple Plot")
 ```
 or
-```Python
+```python
 ax.set_xlabel('x label')  # Add an x-label to the axes.
 ax.set_ylabel('y label')  # Add a y-label to the axes.
 ax.set_title("Simple Plot")  # Add a title to the axes.
 ```
 
 * Subplots
-```Python
+```python
 plt.figure(figsize=(9, 3))
 
 plt.subplot(131)
@@ -71,7 +71,7 @@ plt.show()
 ```
 or
 
-```Python
+```python
 fig, axs = plt.subplots(2, 2)
 axs[0, 0].plot(x, y)
 axs[0, 0].set_title('Axis [0, 0]')
@@ -83,7 +83,7 @@ axs[1, 1].plot(x, -y, 'tab:red')
 axs[1, 1].set_title('Axis [1, 1]')
 ```
 * Customizing Figure Layouts Using GridSpec
-```Python
+```python
 figure=plt.figure(figsize=figsize)
 spec=gridspec.GridSpec(ncols=2, nrows=2, figure=figure)
 for i in range(2):
@@ -109,7 +109,7 @@ f2_ax4 = fig2.add_subplot(spec2[1, 1])
 
 
 * Hide x labels and tick labels for top plots and y ticks for right plots.
-```Python
+```python
 for ax in axs.flat:
     ax.label_outer()
 ```

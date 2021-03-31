@@ -108,3 +108,8 @@ f2_ax4 = fig2.add_subplot(spec2[1, 1])
 for ax in axs.flat:
     ax.label_outer()
 ```
+
+* Save Figure
+```python
+figure.savefig('fig.png',dpi=300)
+```

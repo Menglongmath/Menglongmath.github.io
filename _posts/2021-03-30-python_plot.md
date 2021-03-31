@@ -38,7 +38,6 @@ plt.plot([1,2,3], label='cubic')
 plt.legend()
 ```
 or
-
 ```python
 ax.plot([1, 2, 3], label='Inline label')
 ax.legend()
@@ -61,7 +60,6 @@ ax.set_title("Simple Plot")  # Add a title to the axes.
 * Subplots
 ```python
 plt.figure(figsize=(9, 3))
-
 plt.subplot(131)
 plt.bar(names, values)
 plt.subplot(132)
@@ -96,7 +94,6 @@ for i in range(2):
 ```
 
 or
-
 ```python
 fig2 = plt.figure(constrained_layout=True)
 spec2 = gridspec.GridSpec(ncols=2, nrows=2, figure=fig2)

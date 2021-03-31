@@ -68,7 +68,6 @@ plt.suptitle('Categorical Plotting')
 plt.show()
 ```
 or
-
 ```python
 fig, axs = plt.subplots(2, 2)
 axs[0, 0].plot(x, y)
@@ -92,7 +91,6 @@ for i in range(2):
     ax.plot(x,y,label='label')
     ax.legend()
 ```
-
 or
 ```python
 fig2 = plt.figure(constrained_layout=True)

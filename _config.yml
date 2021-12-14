@@ -24,7 +24,7 @@ url                      : "https://menglongli.com" # the base hostname & protoc
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : Menglongmath/Menglongmath.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "images/uiuc_I.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "images/cityu_logo.jpeg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
@@ -115,12 +115,12 @@ analytics:
 author:
   name             : "Menglong Li"
   avatar           : "images/portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "IDSS, MIT"
-  location         : Boston, MA
+  bio              : "Department of Management Sciences, CityU"
+  location         : Kowloon, Hong Kong
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ml21@mit.edu
+      url: mailto:mengloli@cityu.edu.hk
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=mSNZgMYAAAAJ&hl=en"
@@ -236,7 +236,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 4 # amount of posts to show
 # paginate_path: /_pages/blog/page:num
-timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Hong_Kong # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

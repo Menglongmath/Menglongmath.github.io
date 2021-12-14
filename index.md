@@ -5,8 +5,10 @@ permanlink: /
 author_profile: true
 ---
 
-I am currently a postdoctoral associate in David Simchi-Levi's [Data Science Lab](https://dsl.mit.edu/) at MIT.
+I am currently an Assistant Professor in the Department of [Management Sciences](https://www.cb.cityu.edu.hk/ms/) at the City University of Hong Kong. Before joining CityU, I am a postdoctoral associate in David Simchi-Levi's [Data Science Lab](https://dsl.mit.edu) at MIT.
 
-I received a PhD degree in Industrial Engineering from the University of Illinois at Urbana-Champaign in 2020. Prior to that, I received a MS degree in Mathematics from the University of Pierre and Marie Curie in 2015 and a BS degree in Mathematics from the Tsinghua University in 2014.
 
-My research interests include inventory management, revenue management, (discrete) convex analysis, combinatorial optimization, approximation algorithms, game theory, and data-driven decision making.
+
+My research interests include
+* inventory management and revenue management 
+* (discrete) convex analysis, combinatorial optimization, approximation algorithms, game theory, and data-driven decision making

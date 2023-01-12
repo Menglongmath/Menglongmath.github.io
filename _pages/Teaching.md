@@ -10,3 +10,5 @@ permalink: /teaching/
 
 ## Courses
 * MS6721 Supply Chain Management, 2021/2022 Semester B
+* MS5218 Applied Linear Statistical Models, 2022/2023 Semester A
+* MS6721 Supply Chain Management, 2022/2023 Semester B

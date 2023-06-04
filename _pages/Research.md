@@ -17,9 +17,14 @@ permalink: /research/
 
 
 ## Working Paper
-* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Open-Loop Policies in Lost-Sales Inventory Models with Stochastic Lead Times. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362329))
-* Beryl Chen, Menglong Li, David Simchi-Levi (2022) Dynamic Pricing With Infrequent Inventory Replenishments. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4240137))
-* Xin Chen, Jiachun Li, Menglong Li, Tiancheng Zhao, Yuan Zhou (2022) Assortment Optimization Under the Multivariate MNL Model. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4233712))
-* Ebrahim Arian, Xin Chen, Menglong Li (2022) Decentralized Pricing and Capacitated Assortment Planning in an Online Marketplace. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4007777))
+* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Open-Loop Policies in Lost-Sales Inventory Models with Stochastic Lead Times. Submitted to **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362329))
+* Beryl Chen, Menglong Li, David Simchi-Levi (2022) Dynamic Pricing With Infrequent Inventory Replenishments. Major revision of **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4240137))
+* Xin Chen, Jiachun Li, Menglong Li, Tiancheng Zhao, Yuan Zhou (2022) Assortment Optimization Under the Multivariate MNL Model. Reject and resubmit **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4233712))
+* Ebrahim Arian, Xin Chen, Menglong Li (2022) Decentralized Pricing and Capacitated Assortment Planning in an Online Marketplace. Prepare for submission. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4007777))
 * Xin Chen, Menglong Li, David Simchi-Levi, Tiancheng Zhao (2020) Allocation of Covid-19 Vaccines Under Limited Supply. ([MedRxiv](https://www.google.com/url?q=https%3A%2F%2Fwww.medrxiv.org%2Fcontent%2F10.1101%2F2020.08.23.20179820v1&sa=D&sntz=1&usg=AFQjCNF5VW40jSoxcYmOYoA2ajo0RJaDSA), [SSRN](https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3678986&sa=D&sntz=1&usg=AFQjCNGGBgKDaZ2vfJQ4eJaqZ2xsgPuXUw))
 
+
+
+
+## Work in Process
+* Yifan Hu, Menglong Li, and Xiaoshuang Wang (2023) Computation of Optimal Open-Loop Controls in Markov Decision Processes.

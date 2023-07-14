@@ -17,4 +17,4 @@ My research interests include
 
 ## Openings
 
-I am looking for self-motivated Ph.D. students interested in operations research and optimization, with potential applications in inventory management and revenue management. Prospective students with **strong mathematical backgrounds** are welcome to email me a CV and transcript. Students majoring in mathematics, computer science and industrial engineering are especially welcome.
+I am looking for self-motivated Ph.D. students interested in operations research and optimization, with potential applications in inventory management and revenue management. Prospective students with **strong mathematical backgrounds** are welcome to email me a CV and transcript. Students majoring in mathematics are especially welcome.

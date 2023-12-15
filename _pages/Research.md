@@ -17,7 +17,8 @@ permalink: /research/
 
 
 ## Working Paper
-* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Open-Loop Policies in Lost-Sales Inventory Models with Stochastic Lead Times. Submitted to **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362329))
+* Menglong Li, David Simchi-Levi, Renfei Tan, Chonghuan Wang, Michelle Xiao Wu (2023) Contextual offline demand learning and pricing with separable models. Under review at **Management Science**. ([SSRN](https://ssrn.com/abstract=4619018))
+* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Open-Loop Policies in Lost-Sales Inventory Models with Stochastic Lead Times. Major revision of **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362329))
 * Beryl Chen, Menglong Li, David Simchi-Levi (2022) Dynamic Pricing With Infrequent Inventory Replenishments. Major revision of **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4240137))
 * Xin Chen, Jiachun Li, Menglong Li, Tiancheng Zhao, Yuan Zhou (2022) Assortment Optimization Under the Multivariate MNL Model. Reject and resubmit **Management Science**. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4233712))
 * Ebrahim Arian, Xin Chen, Menglong Li (2022) Decentralized Pricing and Capacitated Assortment Planning in an Online Marketplace. Prepare for submission. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4007777))

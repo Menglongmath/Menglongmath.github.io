@@ -14,3 +14,4 @@ permalink: /teaching/
 * MS6721 Supply Chain Management, 2022/2023 Semester B
 * MS2602 Statistical Inference, 2023/2024 Semester A
 * MS5216 Decision Analytics, 2023/2024 Semester A
+* MS6721 Supply Chain Management, 2023/2024 Semester B

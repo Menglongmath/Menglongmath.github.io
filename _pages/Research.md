@@ -10,8 +10,8 @@ permalink: /research/
 
 ## Publications
 
-* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Semi-Open-Loop Policies in Markov Decision Processes with Large Lead Times. **Operations Research**, forthcoming. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3685551),[OR](https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.088))
-* Xin Chen, Menglong Li (2022) S-Convexity and Gross Substitutability. **Operations Research**, forthcoming. ([SSRN](http://www.google.com/url?q=http%3A%2F%2Fssrn.com%2Fabstract%3D3549632&sa=D&sntz=1&usg=AFQjCNESBg5t491MLj-0NKrjKkYFGuFT2w),[OR](https://doi.org/10.1287/opre.2022.2394))
+* Xingyu Bai, Xin Chen, Menglong Li and Alexander Stolyar (2023) Asymptotic Optimality of Semi-Open-Loop Policies in Markov Decision Processes with Large Lead Times. **Operations Research**, 71(6):2061-2077. ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3685551),[OR](https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.088))
+* Xin Chen, Menglong Li (2022) S-Convexity and Gross Substitutability. **Operations Research**, 72(3):1242-1254.. ([SSRN](http://www.google.com/url?q=http%3A%2F%2Fssrn.com%2Fabstract%3D3549632&sa=D&sntz=1&usg=AFQjCNESBg5t491MLj-0NKrjKkYFGuFT2w),[OR](https://doi.org/10.1287/opre.2022.2394))
 * Xin Chen, Menglong Li (2021) M-Natural-Convexity and Its Applications in Operations. **Operations Research**, 69(5):1396-1408. ([SSRN](https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3431474&sa=D&sntz=1&usg=AFQjCNHni1WzyvoGd5vpDaCPE5U-B70ULg),[OR](https://doi.org/10.1287/opre.2020.2070))
 * Xin Chen, Menglong Li (2020) Discrete Convex Analysis and Its Applications in Operations: A Survey. **Production and Operations Management**, 30(6):1904-1926. ([SSRN](http://www.google.com/url?q=http%3A%2F%2Fssrn.com%2Fabstract%3D3549628&sa=D&sntz=1&usg=AFQjCNF1-_9NcdaipDQTTJkvt1-B0RsRTg),[POM](https://doi.org/10.1111/poms.13234))
 
